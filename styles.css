@@ -1,6 +1,7 @@
-html, body{
-    margin: 0;
+html, body{background-color: white;
+   
     height: 100%;
+    margin: 0px;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -14,21 +15,63 @@ html, body{
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
 .sidebar{
+        height: 100%;
+        width: 120px;
+        background-color:black;
+        padding-top: 20px;
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        color: white;
+        margin: 5px;
+
+      }
     /* pxالعرض هنا يجب ان يكون 120 */
-}
+
+  
+
 
 .header{
+        height: 22%;
+        width: 100%;
+        background-color: blue;
+        /* padding-top: 0px; */
+        border-radius: 10px;
+        margin: 5px;
+
+
     /* pxالطول هنا يجب ان يكون 80 */
 }
+.flex{
+display: flex;
+height: 100%;
+}
+.flex2{
+    height: 100%;
+}
 
-.main{
-
+.main {
+    background-color: cyan;
+    width: 100%;
+    border-radius: 10px;
+    height: 78%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+        
 }
 
 a{
+        text-decoration: none;
+        
+          
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
+a:hover {
+    color: white;
+  }
+  
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
@@ -39,10 +82,14 @@ a{
 h1{
     margin: 0;
     margin-right: 5px;
+    text-align: left;
 }
 
 h2{
     margin: 0;
     margin-left: 5px;
+}
+p{
+    text-align: center;
 }
 
